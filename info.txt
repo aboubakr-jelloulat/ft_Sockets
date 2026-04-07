@@ -1,0 +1,5 @@
+
+docker run --rm -it -v ${PWD}:/home -w /home -p 4242:4242 cc
+
+Test-NetConnection localhost -Port 4242
+
