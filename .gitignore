@@ -1,0 +1,4 @@
+# C compiled binaries
+a.out
+*.out
+*.o
