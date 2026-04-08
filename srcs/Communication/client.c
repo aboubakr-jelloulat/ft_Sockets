@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#define PORT 4242 // server port to connect to
+#define PORT 4243 // server port to connect to
 
 int main(int ac, char **av)
 {

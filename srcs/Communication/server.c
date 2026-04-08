@@ -116,3 +116,20 @@ int main(void)
     return (0);
 }
 
+
+/*
+    socket()   → create endpoint
+        ↓
+    bind()     → assign IP:PORT
+        ↓
+    listen()   → wait for clients
+        ↓
+    accept()   → (BLOCK) wait connection
+        ↓
+    recv()     → receive data
+        ↓
+    send()     → send response
+        ↓
+    close()    → close connection
+
+*/
